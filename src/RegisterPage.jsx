@@ -14,8 +14,6 @@ function RegisterPage({ onRegister }) {
   };
 
   const handleRegister = () => {
-    // Add registration logic here (e.g., create a new user)
-    // For simplicity, let's assume successful registration
     onRegister(username);
   };
 
